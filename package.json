@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "gfa-utils",
+    "description": "an package adds Random Utils",
+    "author": "NoteSwiper",
+    "publisher": "NoteSwiper",
+    "categories": [],
+    "license": "CC-BY-NC-SA 4.0",
+    "version": "0.0.0.1-BUILD",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NoteSwiper/npm-gfaUtils"
+    },
+    "bugs": "https://github.com/NoteSwiper/npm-gfaUtils/issues",
+    "homepage": "https://noteswiper.github.io/npm-gfaUtils/docs",
+    "keywords": [
+        "goofy ahh",
+        "goofy",
+        "goofy aah",
+        "aah",
+        "ahh",
+        "utils",
+        "utility"
+    ],
+    "main": "/src/index.ts",
+    "scripts": {
+        "lint": "eslint ./src --ext .ts,.tsx"
+    },
+    "devDependencies": {
+        "@types/node": "^16.18.34",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+		"@typescript-eslint/parser": "^5.54.0",
+		"eslint": "^8.35.0",
+        "typescript": "^5.1.3"
+    },
+    "readme": "./README.md"
+}
