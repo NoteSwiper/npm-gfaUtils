@@ -1,0 +1,22 @@
+changelog:
+  exclude:
+    labels:
+      - ignore
+  categories:
+    - title: API Changes
+      labels:
+        - Semver-Major
+        - breaking-change
+        - api-change
+        - api
+    - title: Feature Changes
+      labels:
+        - Semver-Minor
+        - enchancement
+        - features
+    - title: Bugfixes
+      labels: 
+        - "*"
+    - title: Pre-Tests
+      labels:
+        - pre-test
